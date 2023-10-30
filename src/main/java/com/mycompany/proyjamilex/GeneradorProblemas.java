@@ -5,5 +5,13 @@ public class GeneradorProblemas {
     int nivel;
     int tipo;
 
+    public GeneradorProblemas(int nivel, int tipo) {
+        this.nivel = nivel;
+        this.tipo = tipo;
+    }
 
+    public int[] generarOperandos() {
+        int limite = (int) Math.pow(10, nivel);
+        return new int[]{random.nextInt(limite), random.nextInt(limite)};
+    }
 }
