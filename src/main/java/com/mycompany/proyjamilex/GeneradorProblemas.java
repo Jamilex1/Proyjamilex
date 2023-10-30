@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.proyjamilex;
+import java.util.Random;
 
-/**
- *
- * @author LENOVO
- */
 public class GeneradorProblemas {
-    
+    Random random = new Random();
+    int nivel;
+    int tipo;
+
+
 }
